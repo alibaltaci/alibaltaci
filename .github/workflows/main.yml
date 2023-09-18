@@ -7,6 +7,9 @@ on:
   
   # allows to manually run the job at any time
   workflow_dispatch:
+    inputs:
+      parameter:
+        description: generate animation
   
   # run on every push on the master branch
   push:
